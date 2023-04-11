@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mstfkhazaal\FilamentRadioButtonField\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentRadioButtonFieldCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-radio-button-field';
 
     public $description = 'My command';
 

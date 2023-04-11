@@ -1,24 +1,25 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mstfkhazaal/filament-radio-button-field",
+    "description": "This is my package filament-radio-button-field",
     "keywords": [
-        ":vendor_name",
+        "mstfkhazaal",
         "laravel",
-        ":package_slug"
+        "filament-radio-button-field"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mstfkhazaal/filament-radio-button-field",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "mstfkhazaal",
+            "email": "mstfkhazaal@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
+        "filament/forms": "^2.0",
         "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^10.0"
+        "illuminate/contracts": "^8.0|^9.0|^10.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -35,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Mstfkhazaal\\FilamentRadioButtonField\\": "src/",
+            "Mstfkhazaal\\FilamentRadioButtonField\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Mstfkhazaal\\FilamentRadioButtonField\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mstfkhazaal\\FilamentRadioButtonField\\FilamentRadioButtonFieldServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentRadioButtonField": "Mstfkhazaal\\FilamentRadioButtonField\\Facades\\FilamentRadioButtonField"
             }
         }
     },
