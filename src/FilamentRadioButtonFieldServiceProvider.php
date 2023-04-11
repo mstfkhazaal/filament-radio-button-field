@@ -4,7 +4,6 @@ namespace Mstfkhazaal\FilamentRadioButtonField;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mstfkhazaal\FilamentRadioButtonField\Commands\FilamentRadioButtonFieldCommand;
 
 class FilamentRadioButtonFieldServiceProvider extends PackageServiceProvider
 {

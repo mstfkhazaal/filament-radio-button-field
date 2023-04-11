@@ -3,8 +3,8 @@
 namespace Mstfkhazaal\FilamentRadioButtonField\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mstfkhazaal\FilamentRadioButtonField\FilamentRadioButtonFieldServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
